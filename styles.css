@@ -1,0 +1,88 @@
+body {
+    background: rgb(242, 242, 242);
+    font-family: 'Roboto', sans-serif;
+    color: rgba(242, 242, 242, 1);
+}
+
+main {
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+/* Sedans Card */
+
+.sedans-el {
+    background: rgb(276, 133, 37);
+    height: 451px;
+    width: 278px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.sedans-logo {
+    content: url(images/icon-sedans.svg);
+    margin: 40px 0px 0px 20px;
+}
+
+
+/* SUVS Card */
+
+.suvs-el {
+background: rgb(1, 105, 114);
+height: 451px;
+width: 278px;
+}
+
+.suvs-logo {
+    content: url(images/icon-suvs.svg);
+    margin: 40px 0px 0px 20px;
+}
+
+/* Luxury Card */
+
+.luxury-el {
+background: rgb(0, 64, 63);
+height: 451px;
+width: 278px;
+border-radius: 0px 6px 6px 0px;
+}
+
+.luxury-logo {
+    content: url(images/icon-luxury.svg);
+    margin: 40px 0px 0px 20px;
+}
+
+/* Button */
+button {
+    margin: 100px 32px;
+    width: 146px; 
+    height: 46px; 
+    border-radius: 60px;
+    border-style: none;
+    background-color: rgba(242, 242, 242, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%; 
+    text-align: center;
+    transition-duration: 0.4s;   
+}
+
+button:hover {
+    background: rgb(216, 216, 216);
+}
+
+button:active {
+    background:  rgba(242, 242, 242, 1);
+    transform: translateY(3px);
+}
+
+.text {
+    margin: 30px 35px 0px 10px;
+    padding: 0px 5px 0px 5px;
+}
+
+.btn-el {
+    margin: 0px 0px 20px 0px;
+}
